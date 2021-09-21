@@ -2,7 +2,9 @@
 This project is an example of building and train a deep L-layer neural network, and applying it to supervised learning consists of a 4 layers neural network that predict whether the image is of a cat or not. 
 
 ## Dataset:
-The dataset is a "Cat vs non-Cat" dataset of images labelled as cat (1) or non-cat (0), a test set of images labelled as cat and non-cat and each image is of shape (num_px, num_px, 3) where 3 is for the 3 channels (RGB). As usual, we first reshape and standardize the images before feeding them to the network. Standardization is a scaling technique where the values are centered around the mean with a unit standard deviation. This means that the mean of the attribute becomes zero and the resultant distribution has a unit standard deviation. The dataset consists of:
+The dataset is a "Cat vs non-Cat" dataset of images labelled as cat (1) or non-cat (0), a test set of images labelled as cat and non-cat and each image is of shape (num_px, num_px, 3) where 3 is for the 3 channels (RGB). As usual, we first reshape and standardize the images before feeding them to the network. Standardization is a scaling technique where the values are centered around the mean with a unit standard deviation. This means that the mean of the attribute becomes zero and the resultant distribution has a unit standard deviation. 
+![Reshape cat images](/images/reshape.png)
+The dataset consists of:
 * Number of training examples: 209
 * Number of testing examples: 50
 * Image of size: (64, 64, 3)
@@ -31,6 +33,8 @@ Here is an outline of the model used in this project:
 ![Image of outline](/images/outline.png)
 
 [Function.py](https://github.com/shreeyalotankar/Cat-Recognition-using-Deep-neural-Network/blob/main/functions.py) has the above mentioned fucntions which are then used to train a 4-layer model having layer dimensions **12288, 20, 7, 5, 1**.
+
+![Image of Cat architecture](/images/outlin2.png)
 
 ## Accuracy:
 The accuracy of this model on training data is 98.56% while on test data it is 80%. As this dataset has a insufficient images the accuracy is low you can increase the accuracy by using more examples or by training a deep network (more number of layers).
