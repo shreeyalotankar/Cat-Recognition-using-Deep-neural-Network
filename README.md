@@ -16,7 +16,7 @@ The dataset consists of:
 ## Model Architecture: 
 To build your neural network, you'll be implementing several "helper functions" from [function.py](https://github.com/shreeyalotankar/Cat-Recognition-using-Deep-neural-Network/blob/main/functions.py).
 Here is an outline of the model used in this project:
-* Initialize the parameters for a two-layer network and for an  𝐿 -layer neural network
+* Initialize the parameters for an  𝐿 -layer neural network
 * Implement the forward propagation module (shown in purple in the figure below)
   * Complete the LINEAR part of a layer's forward propagation step (resulting in  𝑍[𝑙] ).
   * The ACTIVATION function is provided for you (relu/sigmoid)
