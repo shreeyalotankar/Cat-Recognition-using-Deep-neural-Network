@@ -1,5 +1,5 @@
 # Cat-Recognition-using-Deep-neural-Network
-This project is an example of building and train a deep L-layer neural network, and applying it to supervised learning consists of a 4 layers neural network that predict whether the image is of a cat or not. 
+This project is an example of building and train a deep L-layer neural network, and applying it to supervised learning. It consists of a 4 layers neural network that predict whether the image is of a cat or not. 
 
 ## Dataset:
 The dataset is a "Cat vs non-Cat" dataset of images labelled as cat (1) or non-cat (0), a test set of images labelled as cat and non-cat and each image is of shape (num_px, num_px, 3) where 3 is for the 3 channels (RGB). As usual, we first reshape and standardize the images before feeding them to the network. Standardization is a scaling technique where the values are centered around the mean with a unit standard deviation. This means that the mean of the attribute becomes zero and the resultant distribution has a unit standard deviation. 
